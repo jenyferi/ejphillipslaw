@@ -2,52 +2,80 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" >
-        <title>Eric J. Phillips Law</title>
+        <title>The Law Office of Eric J. Phillips</title>
             
-        <link href="css/bootstrap.css">
-        <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700'>
-        
+        <link href='http://fonts.googleapis.com/css?family=Gudea:400,700' rel='stylesheet' type='text/css'>    
+
         <style>
             body {
-                background-image: url('noise_lines.png');
-                background-repeat: repeat;
+                font-family: 'Gudea', serif;
+                color: #888888;
+                font-size: 11pt;
             }
-            
-            #heading-text {
-                margin-top: 200px;
+
+            #title {
+                position: absolute;
+                margin-left: 40%;
+                font-weight: 700;
+                font-size: 13pt;
             }
-            
-            #body-text {
+
+            #headings {
+                margin-top: 40px;
+                position: absolute;
+                font-weight: 700;
+                margin-left: 40%;
+            }
+
+            #content {
+                position: absolute;
+                margin-left: 50%;
+                margin-top: 40px;
+            }
+
+            img {
                 display: block;
-                margin-left: 0 auto;
-                margin-right: 0 auto;
+                margin-top: 180px;
+                margin-bottom: 100px;
+                margin-left: auto;
+                margin-right: auto;
             }
-            
-            h1, h3 {
-                font-family: 'Lato', sans-serif;
+
+            ul {
+                margin: 0px;
+                padding: 0px;
+                width: 350px;
+                text-align: left;
             }
-            
-            h1 {
-                font-weight: 300;
-                font-size: 60px;
-                line-height: 40px;
-                text-align: center;
+
+            li {
+                list-style: none;
             }
-            
-            h3 {
-                font-weight: 300;
-                line-height: 40px;
-            }
+
         </style>
                             
     </head>
     <body>
-        <div id="heading-text">
-            <h1>Eric J. Phillips Law</h1><br><br>
-            <div id="body-text">
-                <h3>Website Coming Soon<br>
-                    Email: <a href="mailto:ephillips@ejphillipslaw.com?Subject=Hello%20Eric">ephillips@ejphillipslaw.com</a></h3>
-            </div>
+        <img src="logo.png" alt="The Law Office of Eric J. Phillips">
+        <div id="title">Contact Information</div>
+        <div id="headings">
+            <ul>
+                <li>Email:</li>
+                <li>Phone:</li>
+                <li>Cell:</li>
+                <li>Fax:</li>
+                <li>Address:</li>
+            </ul>
+        </div> 
+        <div id="content">
+            <ul>
+                <li>ephillips@ejphillipslaw.com</li>
+                <li>925-263-2261</li>
+                <li>925-997-0052</li>
+                <li>925-406-0751</li>
+                <li>4115 Blackhawk Plaza Circle, Suite 100</li>
+                <li>Danville, CA 94506</li>
+            </ul>
         </div>
     </body>
 </html>

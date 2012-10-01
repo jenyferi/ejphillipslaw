@@ -55,12 +55,20 @@ li {
     font-weight: 400;
 }
 
+.page-titles {
+    font-size: 1.5em;
+}
+
 .headings {  
     font-size: 1.3em;
 }
 
 .highlight-color {
     color: #b34252;
+}
+
+.border {
+    border: 1px #d9d9d9 solid;
 }
 
 .content-block {
@@ -106,13 +114,13 @@ li {
     padding-right: 13px;
 }
 
-#navbar a {
+#navbar li a {
     color: #ffffff;
     font-weight: 400;
     padding: 5px 15px;
 }
 
-#navbar a:hover, .selected {
+#navbar li a:hover, .selected {
     background-color: #717176;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -127,6 +135,15 @@ li {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99717176, endColorstr=#99717176);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99717176, endColorstr=#99717176)";
+}
+
+#page-content {
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+.content-subtitle {
+    margin-top: 5px;
 }
 
 #wrapper {

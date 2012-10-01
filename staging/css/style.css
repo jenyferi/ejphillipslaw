@@ -69,6 +69,14 @@ li {
     font-size: 0.95em;
     padding: 15px;
     line-height: 1.4em;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99717176, endColorstr=#99717176);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99717176, endColorstr=#99717176)";
 }
 
 #navbar {
@@ -87,6 +95,7 @@ li {
 #navbar ul {
     margin-top: -35px;
     padding-left: 52%;
+    margin-left: -15px;
 }
 
 #navbar li {
@@ -94,16 +103,30 @@ li {
     letter-spacing: 0.1em;
     display: inline;
     text-transform: uppercase;
-    padding-right: 43px;
+    padding-right: 13px;
 }
 
 #navbar a {
     color: #ffffff;
     font-weight: 400;
+    padding: 5px 15px;
 }
 
-#navbar a:hover {
-    background-color: #6e6d70;
+#navbar a:hover, .selected {
+    background-color: #717176;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    behavior: url(/css/border-radius.htc);
+    border-radius: 5px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(113, 113, 118);
+    /* RGBa with 0.6 opacity */
+    background: rgba(113, 113, 118, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99717176, endColorstr=#99717176);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99717176, endColorstr=#99717176)";
 }
 
 #headline {

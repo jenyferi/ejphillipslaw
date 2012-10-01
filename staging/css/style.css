@@ -1,0 +1,164 @@
+body {
+	padding: 0px;
+	margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #666666;
+}
+
+::selection {
+    background: #A5D1D0; /* Safari */
+}
+
+::-moz-selection {
+    background: #A5D1D0; /* Firefox */
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #4267b3;
+}
+
+a:hover {
+    color: #aaaaaa;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titles {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.headings {  
+    font-size: 1.3em;
+}
+
+.highlight-color {
+    color: #b34252;
+}
+
+.content-block {
+    border: 1px #d9d9d9 solid;
+    background-color: #ffffff;
+    font-size: 0.95em;
+    padding: 15px;
+    line-height: 1.4em;
+}
+
+#navbar {
+    width: 100%;
+    height: 105px;
+    background-image: url("../img/stripe_dark.png");
+    background-color: #58585e;
+    border-bottom: 1px #89899b solid;
+}
+
+#logo {
+    margin-left: 8%;
+    margin-top: 10px;
+}
+
+#navbar ul {
+    margin-top: -35px;
+    padding-left: 52%;
+}
+
+#navbar li {
+    font-size: 1.1em;
+    display: inline;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+
+#navbar a {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#navbar a:hover {
+    background-color: #6e6d70;
+}
+
+#headline {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 275px;
+    border-bottom: 1px #ebebeb solid;
+}
+
+#headline-top {
+    padding-top: 80px;
+    margin-left: 8%;
+    font-style: italic;
+    font-size: 3em;
+}
+
+#headline-second {
+    margin-left: 8%;
+    font-size: 2.3em;
+}
+
+#home-photo {
+    margin-top: -170px;
+    margin-left: 52%;
+    border: 1px #d9d9d9 solid;
+}
+
+#content {
+    clear: both;
+    background-image: url("../img/stripe_light.png");
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+#contact-home {
+    margin-left: 8%;
+}
+
+#about-home {
+    margin-left: 52%;
+    margin-top: -213px;
+}
+
+#contact-content-block {
+    margin-top: 5px;
+    width: 420px;
+    height: 145px;
+}
+
+#contact-info {
+    margin-top: -110px;
+    margin-left: 130px;
+}
+
+#about-content-block {
+    margin-top: 5px;
+    width: 445px;
+    height: 145px;
+}
+
+#footer {
+    font-size: 0.8em;
+    padding-top: 10px;
+    padding-left: 8%;
+    width: 100%;
+    height: 25px;
+    background-color: #e7e7e7;
+    border-top: 1px #b1b1b1 solid;
+}

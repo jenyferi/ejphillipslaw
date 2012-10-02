@@ -1,0 +1,56 @@
+#page-content {
+	margin-top: 40px;
+}
+
+#contact-page-content-block {
+	margin-top: 20px;
+}
+
+#form {
+	width: 450px;
+	height: 250px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(231, 231, 231);
+    /* RGBa with 0.6 opacity */
+    background: rgba(231, 231, 231, 0.5);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7)";
+    padding: 15px;
+}
+
+.form-text {
+	width: 450px;
+	height: 35px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 0.9em;
+    background-color: #ffffff;
+    border: 1px #cfcfcf solid;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    behavior: url(/css/border-radius.htc);
+    border-radius: 5px;
+}
+
+#message {
+	padding-top: 7px;
+	height: 80px;
+	resize: none;
+}
+
+#info {
+	margin-left: 47%;
+	margin-top: -282px;
+	width: 450px;
+	height: 250px;
+}
+
+#contact-content {
+	margin-left: 120px;
+	margin-top: -190px;
+}

@@ -80,14 +80,14 @@ li {
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(255, 255, 255);
     /* RGBa with 0.6 opacity */
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.5);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99717176, endColorstr=#99717176);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f717176, endColorstr=#7f717176);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99717176, endColorstr=#99717176)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f717176, endColorstr=#7f717176)";
 }
 
-#navbar {
+.navbar {
     width: 100%;
     height: 105px;
     background-image: url("../img/stripe_dark.png");
@@ -95,18 +95,18 @@ li {
     border-bottom: 1px #89899b solid;
 }
 
-#logo {
+.logo {
     margin-left: 8%;
     margin-top: 10px;
 }
 
-#navbar ul {
+.navbar ul {
     margin-top: -35px;
     padding-left: 52%;
     margin-left: -15px;
 }
 
-#navbar li {
+.navbar li {
     font-size: 1.1em;
     letter-spacing: 0.1em;
     display: inline;
@@ -114,13 +114,13 @@ li {
     padding-right: 13px;
 }
 
-#navbar li a {
+.navbar li a {
     color: #ffffff;
     font-weight: 400;
     padding: 5px 15px;
 }
 
-#navbar li a:hover, .selected {
+.navbar li a:hover, .selected {
     background-color: #717176;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -146,25 +146,25 @@ li {
     margin-top: 5px;
 }
 
-#wrapper {
+.wrapper {
     min-height: 100%;
     height: auto !important;
     margin: 0 auto -35px;
     height: 100;
 }
 
-#push {
+.push {
     clear: both;
 }
 
-#copyright  {
+.copyright  {
     width: 100%;
     font-size: 0.8em;
     margin-top: 8px;
     margin-left: 8%;
 }
 
-#footer {
+.footer {
     width: 100%;
     height: 35px;
     background-color: #e7e7e7;

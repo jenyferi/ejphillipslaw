@@ -24,11 +24,6 @@ body {
     background: #A5D1D0; /* Firefox */
 }
 
-p {
-    margin: 0px;
-    padding: 0px;
-}
-
 a {
     text-decoration: none;
     font-weight: 600;
@@ -45,7 +40,7 @@ ul {
     padding: 0px;
 }
 
-li {
+li, p {
     margin: 0px;
     padding: 0px;
 }
@@ -87,40 +82,48 @@ li {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f717176, endColorstr=#7f717176)";
 }
 
-.navbar {
+.navbar-iframe {
+    height: 106px;
+}
+
+.navbar-wrapper {
     width: 100%;
-    height: 105px;
+    height: 105px;    
     background-image: url("../img/stripe_dark.png");
     background-color: #58585e;
     border-bottom: 1px #89899b solid;
 }
 
-.logo {
+.navbar-inside {
     margin-left: 8%;
+    width: 1000px;
+}
+
+.logo {
+    float: left;
     margin-top: 10px;
 }
 
-.navbar ul {
-    margin-top: -35px;
-    padding-left: 52%;
-    margin-left: -15px;
+.navbar-inside ul {
+    float: right;
+    margin-top: 65px;
 }
 
-.navbar li {
+.navbar-inside li {
     font-size: 1.1em;
     letter-spacing: 0.1em;
     display: inline;
     text-transform: uppercase;
-    padding-right: 13px;
+    padding-left: 13px;
 }
 
-.navbar li a {
+.navbar-inside li a {
     color: #ffffff;
     font-weight: 400;
     padding: 5px 15px;
 }
 
-.navbar li a:hover, .selected {
+.navbar-inside li a:hover, .selected {
     background-color: #717176;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;

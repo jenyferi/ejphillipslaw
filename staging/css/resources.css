@@ -1,0 +1,28 @@
+#resources-wrapper {
+	margin-top: 40px;
+	margin-left: 8%;
+}
+
+#resources-paragraphs {
+	margin-top: 20px;
+	width: 1000px;
+	height: 380px;
+}
+
+#resources-left {
+	float: left;
+	width: 475px;
+}
+
+#resources-paragraphs li {
+	margin-bottom: 40px;
+}
+
+#resources-right {
+	float: right;
+	width: 475px;
+}
+
+.article-title {
+	margin-bottom: 10px;
+}

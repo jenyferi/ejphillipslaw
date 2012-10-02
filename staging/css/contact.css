@@ -4,12 +4,12 @@
 
 #contact-page-content-block {
 	margin-top: 20px;
-	width: 973px;
+	width: 1000px;
 }
 
 #form {
 	float: left;
-	width: 490px;
+	width: 484px;
 	height: 290px;
 	border-left: 1px #d9d9d9 solid;
 	border-top: 1px #d9d9d9 solid;
@@ -29,7 +29,7 @@
 	margin-top: 15px;
 	margin-right: 15px;
 	color: #909090;
-	width: 460px;
+	width: 455px;
 	height: 35px;
 	padding-left: 10px;
 	font-family: "Open Sans", sans-serif;
@@ -52,11 +52,16 @@
 
 #info {
 	float: right;
-	width: 450px;
+	width: 483px;
 	height: 260px;
 }
 
-#contact-content {
-	margin-left: 120px;
-	margin-top: -190px;
+#contactpage-labels {
+	float: left;
+	width: 50px;
+}
+
+#contactpage-content {
+	float: right;
+	width: 350px;
 }

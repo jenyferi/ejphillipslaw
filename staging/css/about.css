@@ -1,17 +1,24 @@
-#page-content {
+#about-wrapper {
 	margin-top: 40px;
+	width: 1000px;
+	margin-left: 8%;
 }
 
-#about-page-content-block {
+#left-content {
+	float: left;
+}
+
+#right-content {
+	float: right;
+	width: 350px;
+	margin-top: 75px;
+}
+
+#about-paragraphs {
 	margin-top: 20px;
-	width: 50%;
-	margin-bottom: 60px;
-	height: 930px;
-}
-
-#about-page-photo-block {
-	margin-left: 60%;
-	margin-top: -1023px;
+	width: 570px;
+	margin-bottom: 30px;
+	height: 900px;
 }
 
 #bio-link {

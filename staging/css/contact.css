@@ -24,12 +24,30 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7)";
 }
 
-.form-text {
-	margin-left: 15px;
+#form-labels {
+	float: left;
+	width: 120px;
 	margin-top: 15px;
+	margin-left: 15px;
+	height: 100%;
+}
+
+#form-labels li {
+	font-size: 0.95em;
+	margin-bottom: 26px;
+}
+
+#comment-form {
+	float: right;
+	width: 300px;
+}
+
+.form-text {
+	vertical-align: top;
+	margin-left: 15px;
 	margin-right: 15px;
 	color: #909090;
-	width: 455px;
+	width: 255px;
 	height: 35px;
 	padding-left: 10px;
 	font-family: "Open Sans", sans-serif;
@@ -44,15 +62,23 @@
     border-radius: 5px;
 }
 
+label.error {
+	color: #b34252;
+	font-size: 0.7em;
+}
+
+.form-text-wrapper {
+	margin-top: 15px;
+}
+
 #message {
-	padding-top: 7px;
 	height: 115px;
 	resize: none;
 }
 
 #submit-btn {
 	margin-top: 15px;
-	margin-left: 15px;
+	margin-left: 25px;
 }
 
 #info {

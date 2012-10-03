@@ -6,12 +6,20 @@
     <link href="css/contact.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.8.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nospam.js" type="text/javascript"></script>
+    <script src="js/jquery.validate.min.js" type="text/javascript"></script>
     <!--[if IE]>
     <link href="http://fonts.googleapis.com/css?family=Lora:400" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:700italic" rel="stylesheet" type="text/css">
     <![endif]-->
+    <script>
+      $(document).ready(function(){
+        $("#contactform").validate();
+      });
+    </script>
   </head>
   <body>
 
@@ -25,12 +33,20 @@
 
       <div id="contact-page-content-block">
         <div id="form">
-          <form action="mailto:jenyferi@gmail.com" enctype="text/plain" method="get">
-            <input type="text"  class="form-text" name="name" value="Your name"><br>
-            <input type="text"  class="form-text" name="email" value="Your email"><br>
-            <textarea align="top" class="form-text" id="message" name="message">Your message</textarea><br>
+
+          <ul id="form-labels">
+            <li>Your Name:</li>
+            <li>Your Email:</li>
+            <li>Your Message:</li>
+          </ul>
+
+          <form action="" id="contactform" method="POST">
+            <div class="form-text-wrapper">*<input type="text" class="form-text required" name="name"></div>
+            <div class="form-text-wrapper">*</span><input type="text" class="form-text required" name="email"></div>
+            <div class="form-text-wrapper">*</span><textarea class="form-text required" id="message" name="message"></textarea></div>
             <input type="submit" id="submit-btn" class="button" name="submit" value="Send">
           </form>
+
         </div>
 
         <div id="info" class="content-block">

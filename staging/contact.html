@@ -16,9 +16,16 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:700italic" rel="stylesheet" type="text/css">
     <![endif]-->
     <script>
-      $(document).ready(function(){
-        $("#contactform").validate();
-      });
+    $("#contactform").validate({
+      messages: {
+        name: "Enter your name",
+        email: "Enter your email address",
+        message: "Enter your message",
+      },
+      errorPlacement: function(error, element) { 
+        error.appendTo(element.parent());
+      }
+    });
     </script>
   </head>
   <body>
@@ -41,8 +48,8 @@
           </ul>
 
           <form action="" id="contactform" method="POST">
-            <div class="form-text-wrapper">*<input type="text" class="form-text required" name="name"></div>
-            <div class="form-text-wrapper">*</span><input type="text" class="form-text required" name="email"></div>
+            <div class="form-text-wrapper">*<input type="text" class="form-text required" id="name" name="name"></div>
+            <div class="form-text-wrapper">*</span><input type="text" class="form-text required" id="email" name="email"></div>
             <div class="form-text-wrapper">*</span><textarea class="form-text required" id="message" name="message"></textarea></div>
             <input type="submit" id="submit-btn" class="button" name="submit" value="Send">
           </form>

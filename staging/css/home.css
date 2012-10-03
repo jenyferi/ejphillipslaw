@@ -16,8 +16,10 @@
 }
 
 #headline-top {
+    font-family: 'LoraItalic';
     padding-top: 80px;
     font-style: italic;
+    font-weight: 300;
     font-size: 3em;
 }
 

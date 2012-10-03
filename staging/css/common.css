@@ -96,9 +96,9 @@ ul, p {
     /* RGBa with 0.6 opacity */
     background: rgba(255, 255, 255, 0.5);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f717176, endColorstr=#7f717176);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fffffff, endColorstr=#7fffffff);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f717176, endColorstr=#7f717176)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fffffff, endColorstr=#7fffffff)";
 }
 
 .navbar-iframe {
@@ -121,6 +121,7 @@ ul, p {
 .logo {
     float: left;
     margin-top: 10px;
+    border: none;
 }
 
 .navbar-inside ul {
@@ -169,14 +170,14 @@ ul, p {
 }
 
 .wrapper {
+    position: relative;
     min-height: 100%;
-    height: auto !important;
-    margin: 0 auto -35px;
-    height: 100;
+    height: 100%;
 }
 
 .push {
     clear: both;
+    height: 35px;
 }
 
 .copyright  {
@@ -186,6 +187,7 @@ ul, p {
 }
 
 .footer {
+    position: relative;
     clear: both;
     width: 100%;
     height: 35px;

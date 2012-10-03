@@ -5,12 +5,8 @@
 #contact-page-content-block {
 	margin-top: 20px;
 	width: 1000px;
-}
-
-#form {
-	float: left;
-	width: 484px;
 	height: 290px;
+	background-color: #e7e7e7;
 	border-left: 1px #d9d9d9 solid;
 	border-top: 1px #d9d9d9 solid;
 	border-bottom: 1px #d9d9d9 solid;
@@ -22,6 +18,11 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7)";
+}
+
+#form {
+	float: left;
+	width: 484px;
 }
 
 #form-labels {
@@ -74,6 +75,7 @@ label.error {
 #message {
 	height: 115px;
 	resize: none;
+	overflow: auto;
 }
 
 #submit-btn {
@@ -82,9 +84,11 @@ label.error {
 }
 
 #info {
+	border-top: none;
+	border-bottom: none;
 	float: right;
 	width: 483px;
-	height: 260px;
+	height: 290px;
 }
 
 #contactpage-labels {

@@ -46,8 +46,13 @@
 
 #message {
 	padding-top: 7px;
-	height: 80px;
+	height: 115px;
 	resize: none;
+}
+
+#submit-btn {
+	margin-top: 15px;
+	margin-left: 15px;
 }
 
 #info {
@@ -64,4 +69,8 @@
 #contactpage-content {
 	float: right;
 	width: 350px;
+}
+
+#map-btn {
+	padding: 5px 15px;
 }

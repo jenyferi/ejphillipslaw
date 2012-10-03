@@ -24,3 +24,15 @@
 #bio-link {
 	margin-top: 15px;
 }
+
+#resume {
+	margin-top: 10px;
+}
+
+#resume li {
+	margin-bottom: 20px;
+}
+
+.subinfo {
+	margin-left: 30px;
+}

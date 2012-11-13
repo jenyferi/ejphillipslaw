@@ -115,7 +115,6 @@ ul, p {
 
 .navbar-inside {
     margin-left: 8%;
-    width: 1000px;
 }
 
 .logo {
@@ -126,12 +125,13 @@ ul, p {
 
 .navbar-inside ul {
     float: right;
+    margin-right: 8%;
     margin-top: 65px;
 }
 
 .navbar-inside li {
     font-size: 1.1em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0em;
     display: inline;
     text-transform: uppercase;
     padding-left: 13px;
@@ -170,9 +170,10 @@ ul, p {
 }
 
 .wrapper {
-    position: relative;
-    min-height: 100%;
     height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -35px;
 }
 
 .push {
@@ -187,9 +188,7 @@ ul, p {
 }
 
 .footer {
-    position: relative;
     clear: both;
-    width: 100%;
     height: 35px;
     background-color: #e7e7e7;
     border-top: 1px #b1b1b1 solid;

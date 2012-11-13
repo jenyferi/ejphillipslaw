@@ -1,17 +1,17 @@
 #resources-wrapper {
 	margin-top: 40px;
-	width: 1000px;
+	margin-right: 8%;
 	margin-left: 8%;
 }
 
 #resources-paragraphs {
 	margin-top: 20px;
-	height: 380px;
+	height: 200px;
 }
 
 #resources-left {
 	float: left;
-	width: 475px;
+	width: 46%;
 }
 
 #resources-paragraphs li {
@@ -20,9 +20,11 @@
 
 #resources-right {
 	float: right;
-	width: 475px;
+	width: 46%;
 }
 
 .article-title {
 	margin-bottom: 10px;
+    font-weight: 600;
+    color: #4267b3;
 }

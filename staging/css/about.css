@@ -1,28 +1,38 @@
 #about-wrapper {
 	margin-top: 40px;
-	width: 1000px;
 	margin-left: 8%;
 }
 
 #left-content {
 	float: left;
+	width: 53%;
 }
 
 #right-content {
 	float: right;
-	width: 350px;
+	width: 320px;
+	margin-right: 8%;
 	margin-top: 75px;
 }
 
 #about-paragraphs {
 	margin-top: 20px;
-	width: 570px;
 	margin-bottom: 30px;
-	height: 900px;
+	height: 1100px;
+}
+
+#about-photo {
+	width: 167px;
+	border: 1px #d9d9d9 solid;
+	background-color: #ffffff;
+	padding-left: 76px;
+	padding-right: 76px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 #bio-link {
-	margin-top: 15px;
+	margin-top:25px;
 }
 
 #resume {
@@ -30,7 +40,7 @@
 }
 
 #resume li {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .subinfo {

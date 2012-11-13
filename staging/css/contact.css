@@ -4,8 +4,9 @@
 
 #contact-page-content-block {
 	margin-top: 20px;
-	width: 1000px;
+	margin-right: 8%;
 	height: 290px;
+	padding-bottom: 15px;
 	background-color: #e7e7e7;
 	border-left: 1px #d9d9d9 solid;
 	border-top: 1px #d9d9d9 solid;
@@ -22,12 +23,16 @@
 
 #form {
 	float: left;
-	width: 484px;
+	width: 45%;
+}
+
+#contactform {
+	margin-left: 35%;
 }
 
 #form-labels {
 	float: left;
-	width: 120px;
+	width: 30%;
 	margin-top: 15px;
 	margin-left: 15px;
 	height: 100%;
@@ -35,20 +40,14 @@
 
 #form-labels li {
 	font-size: 0.95em;
-	margin-bottom: 26px;
-}
-
-#comment-form {
-	float: right;
-	width: 300px;
+	margin-bottom: 30px;
 }
 
 .form-text {
 	vertical-align: top;
-	margin-left: 15px;
 	margin-right: 15px;
 	color: #909090;
-	width: 255px;
+	width: 200px;
 	height: 35px;
 	padding-left: 10px;
 	font-family: "Open Sans", sans-serif;
@@ -59,7 +58,7 @@
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
-    behavior: url(/css/border-radius.htc);
+    behavior: url(../css/border-radius.htc);
     border-radius: 5px;
 }
 
@@ -79,28 +78,30 @@ label.error {
 }
 
 #submit-btn {
+	width: 115px;
+	height: 30px;
 	margin-top: 15px;
-	margin-left: 25px;
 }
 
 #info {
-	border-top: none;
-	border-bottom: none;
 	float: right;
-	width: 483px;
-	height: 290px;
+	width: 47%;
+	height: 275px;
+	border-top: 0px;
 }
 
 #contactpage-labels {
 	float: left;
-	width: 50px;
+	width: 25%;
 }
 
 #contactpage-content {
 	float: right;
-	width: 350px;
+	width: 75%;
 }
 
 #map-btn {
-	padding: 5px 15px;
+	height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
 }

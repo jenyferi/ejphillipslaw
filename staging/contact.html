@@ -1,20 +1,28 @@
-<html lang="en">
+<!DOCTYPE html>
   <head>
-    <meta charset="utf-8"> 
+    <meta charset="UTF-8">
     <title>The Law Office of Eric J. Phillips</title>
     <link href="css/common.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-    <script src="js/jquery-1.8.1.min.js" type="text/javascript"></script>
-    <script src="js/jquery.nospam.js" type="text/javascript"></script>
-    <script src="js/jquery.validate.min.js" type="text/javascript"></script>
-    <!--[if IE]>
     <link href="http://fonts.googleapis.com/css?family=Lora:400" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:700italic" rel="stylesheet" type="text/css">
-    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery-1.8.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nospam.js" type="text/javascript"></script>
+
+    <script>
+      $(function(){
+        $('a.email').nospam({ replaceText: true });
+      });
+    </script>
+
+    <!--<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+
     <script>
     $("#contactform").validate({
       messages: {
@@ -26,7 +34,8 @@
         error.appendTo(element.parent());
       }
     });
-    </script>
+    </script>-->
+
   </head>
   <body>
 
@@ -47,12 +56,14 @@
             <li>Your Message:</li>
           </ul>
 
-          <form action="" id="contactform" method="POST">
-            <div class="form-text-wrapper">*<input type="text" class="form-text required" id="name" name="name"></div>
-            <div class="form-text-wrapper">*</span><input type="text" class="form-text required" id="email" name="email"></div>
-            <div class="form-text-wrapper">*</span><textarea class="form-text required" id="message" name="message"></textarea></div>
-            <input type="submit" id="submit-btn" class="button" name="submit" value="Send">
-          </form>
+          <div id="contactform">
+            <form action="mail.php" method="POST">
+              <div class="form-text-wrapper"><input type="text" class="form-text required" name="name"></div>
+              <div class="form-text-wrapper"><input type="text" class="form-text required" name="email"></div>
+              <div class="form-text-wrapper"><textarea class="form-text required" id="message" name="message"></textarea></div>
+              <input type="submit" id="submit-btn" class="button" name="submit" value="Send">
+            </form>
+          </div>
 
         </div>
 
@@ -68,7 +79,7 @@
           </p>
 
           <p id="contactpage-content">
-            <a href="mailto:ephillips@ejphillipslaw.com">ephillips@ejphillipslaw.com</a><br><br>
+            <a href="#" rel="moc/walspillihpje//spillihpe" class="email">email</a><br><br>
             <a href="ejphillips_vcard.vcf">vCard</a><br><br>
             925-263-2261<br>
             925-997-0052<br>

@@ -69,7 +69,7 @@
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 #contact-home {
@@ -86,8 +86,9 @@
 }
 
 #contact-content-block {
-    margin-top: 5px;
-    height: 185px;
+    margin-top: 7px;
+    height: 190px;
+    font-size: 0.9em;
 }
 
 #contact-labels {
@@ -101,7 +102,8 @@
 }
 
 #about-content-block {
-    margin-top: 5px;
-    height: 185px;
+    margin-top: 7px;
+    height: 190px;
     margin-bottom: 5px;
+    font-size: 0.9em;
 }

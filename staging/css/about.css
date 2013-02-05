@@ -1,9 +1,12 @@
 #about-wrapper {
 	margin-top: 40px;
-	margin-left: 8%;
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #left-content {
+	margin-left: 8%;
 	float: left;
 	width: 53%;
 }
@@ -12,7 +15,7 @@
 	float: right;
 	width: 320px;
 	margin-right: 8%;
-	margin-top: 75px;
+	margin-top: 20px;
 }
 
 #about-paragraphs {
@@ -23,7 +26,7 @@
 
 #about-photo {
 	width: 167px;
-	border: 1px #d9d9d9 solid;
+	border: 1px #ebebeb solid;
 	background-color: #ffffff;
 	padding-left: 76px;
 	padding-right: 76px;

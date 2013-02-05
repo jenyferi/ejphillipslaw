@@ -1,43 +1,87 @@
-#headline-wrapper {
-    background-color: #f3f3f3;
-    height: 240px;
-    border-bottom: 1px #ebebeb solid;
+.navbar-bottom-home {
+    height: 7px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.4);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)";
+    background: transparent\9;
+}
+
+#headline-images {
+    background-color: #545459;
+    height: 285px;
+    background-image: url("../img/home0.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    width: 100%;
+    position: absolute;
+}
+
+#headline-bg {
+    background-color: #545459;
+    height: 285px;
+    width: 100%;
+}
+
+#headline-section {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
 }
 
 #headline-inside { 
-    width: 100%; 
+    width: 100%;
+}
+
+#headline-transparent {
+    margin-top: 198px;
+    height: 80px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.3);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c000000, endColorstr=#4c000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c000000, endColorstr=#4c000000)";
+    background: transparent\9;
+}
+
+#headline-wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 #headline-text {
-    padding-top: 60px;
-    text-align: center;
-}
-
-#headline-top {
-    font-family: 'LoraItalic';
-    font-style: italic;
-    font-weight: 300;
-    font-size: 3.3em;
-}
-
-#headline-second {
-    font-size: 2.4em;
+    margin-top: -58px;
+    float: left;
+    margin-left: 8%;
+    font-size: 2em;
+    color: #ffffff;
+    font-family: 'Lora', serif;
 }
 
 #home-content {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
 }
 
 #contact-home {
+    float: left;
     margin-left: 8%;
     width: 40%;
-    float: left;
 }
 
 #about-home {
+    float: right;
     margin-right: 8%;
     width: 40%;
-    float: right;
     margin-bottom: 5px;
 }
 

@@ -1,10 +1,13 @@
 #resources-wrapper {
 	margin-top: 40px;
-	margin-right: 8%;
-	margin-left: 8%;
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #resources-paragraphs {
+	margin-right: 8%;
+	margin-left: 8%;
 	margin-top: 20px;
 	height: 200px;
 }

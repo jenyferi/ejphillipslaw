@@ -3,14 +3,15 @@
 }
 
 #contact-page-content-block {
+	margin-left: 8%;
 	margin-top: 20px;
 	margin-right: 8%;
 	height: 290px;
 	padding-bottom: 15px;
 	background-color: #e7e7e7;
-	border-left: 1px #d9d9d9 solid;
-	border-top: 1px #d9d9d9 solid;
-	border-bottom: 1px #d9d9d9 solid;
+	border-left: 1px #ebebeb solid;
+	border-top: 1px #ebebeb solid;
+	border-bottom: 1px #ebebeb solid;
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(231, 231, 231);
     /* RGBa with 0.6 opacity */
@@ -19,11 +20,17 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7)";
+    background: transparent\9;
 }
 
 #form {
 	float: left;
 	width: 45%;
+}
+
+#sent-message {
+	margin-top: 15px;
+	margin-left: 15px;
 }
 
 #contactform {
@@ -54,7 +61,7 @@
 	font-weight: 300;
 	font-size: 0.9em;
     background-color: #ffffff;
-    border: 1px #cfcfcf solid;
+    border: 1px #ebebeb solid;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;

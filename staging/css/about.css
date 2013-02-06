@@ -21,7 +21,7 @@
 #about-paragraphs {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	height: 900px;
+	min-height: 900px;
 }
 
 #about-photo {

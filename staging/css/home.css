@@ -87,7 +87,7 @@
 
 #contact-content-block {
     margin-top: 7px;
-    height: 190px;
+    min-height: 200px;
     font-size: 0.9em;
 }
 
@@ -103,7 +103,6 @@
 
 #about-content-block {
     margin-top: 7px;
-    height: 190px;
-    margin-bottom: 5px;
+    min-height: 200px;
     font-size: 0.9em;
 }

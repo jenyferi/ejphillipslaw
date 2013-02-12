@@ -1,68 +1,41 @@
 <!DOCTYPE html>
-  <head>
-    <meta charset="UTF-8">
-    <title>The Law Office of Eric J. Phillips</title>
-    <link href="css/common.css" rel="stylesheet">
-    <link href="css/contact.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+<head>
+  <meta charset="UTF-8">
+  <title>The Law Office of Eric J. Phillips</title>
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
 
-    <script src="js/jquery-1.8.1.min.js" type="text/javascript"></script>
-    <script src="js/jquery.nospam.js" type="text/javascript"></script>
+  <script src="js/jquery-1.8.1.min.js" type="text/javascript"></script>
+  <script src="js/jquery.nospam.js" type="text/javascript"></script>
 
-    <script>
-      $(function(){
-        $('a.eric-email').nospam({ replaceText: true });
-        $('a.nancy-email').nospam({ replaceText: true });
+  <script>
+  $(function(){
+    $('a.eric-email').nospam({ replaceText: true });
+    $('a.nancy-email').nospam({ replaceText: true });
 
-        var vars = [], hash;
-        var q = document.URL.split('?')[1];
-        if(q != undefined){
-          q = q.split('&');
-          for(var i = 0; i < q.length; i++){
-              hash = q[i].split('=');
-              vars.push(hash[1]);
-              vars[hash[0]] = hash[1];
-          }
-        }
-
-        if (vars['sent']=="true"){
-          $("#sent-message").html('<b>Thank you!</b><br><br>Your message was sent to Eric J. Phillips.');
-          $("#another-message").css("font-size", "0.8em");
-          $("#form-labels").css("display", "none");
-          $("#contactform").css("display", "none");
-        }else if (vars['sent']=="false"){
-          $("#sent-message").html("<b>Sorry!</b><br><br>There was an error with sending your message.<br>Please contact Eric J. Phillips via email.");
-          $("#sent-message").css("color", "#b34252");
-          $("#form-labels").css("display", "none");
-          $("#contactform").css("display", "none");
-        }
-
-      });
-
-    </script>
-
-    <!--<script src="js/jquery.validate.min.js" type="text/javascript"></script>
-
-    <script>
-    $("#contactform").validate({
-      messages: {
-        name: "Enter your name",
-        email: "Enter your email address",
-        message: "Enter your message",
-      },
-      errorPlacement: function(error, element) { 
-        error.appendTo(element.parent());
+    var vars = [], hash;
+    var q = document.URL.split('?')[1];
+    if(q != undefined){
+      q = q.split('&');
+      for(var i = 0; i < q.length; i++){
+        hash = q[i].split('=');
+        vars.push(hash[1]);
+        vars[hash[0]] = hash[1];
       }
-    });
-    </script>-->
+    }
 
-  </head>
-  <body>
+  });
 
-    <div class="wrapper">
-    
+  </script>
+
+</head>
+<body>
+
+  <div class="wrapper">
+
     <div class="navbar-wrapper">
       <div class="navbar-inside">
         <a href="index.html" target="_top"><img class="logo" src="img/logo2.png"></a>
@@ -79,52 +52,44 @@
 
     <div id="page-content">
       <a class="titles highlight-color page-titles" href="contact.html">Contact</a>
-      <p class="content-subtitle">Leave a message for Eric J. Phillips or get in touch by email or phone.</p>
+      <p class="content-subtitle">Get in touch with Eric Phillips and Nancy Phillips.</p>
 
       <div id="contact-page-content-block">
-        <div id="form">
-          <div id="sent-message"></div>
-
-          <ul id="form-labels">
-            <li>Your Name:</li>
-            <li>Your Email:</li>
-            <li>Your Message:</li>
-          </ul>
-
-          <div id="contactform">
-            <form action="mail.php" method="POST">
-              <div class="form-text-wrapper"><input type="text" class="form-text required" name="name"></div>
-              <div class="form-text-wrapper"><input type="text" class="form-text required" name="email"></div>
-              <div class="form-text-wrapper"><textarea class="form-text required" id="message" name="message"></textarea></div>
-              <input type="submit" id="submit-btn" class="button" name="submit" value="Send">
-            </form>
-          </div>
-
-        </div>
 
         <div id="info" class="content-block">
+          <div id="left-contact">
+            <p class="titles highlight-color page-smalltitles">Emails and vCard</p>
+            <p class="contactpage-labels">
+              Eric Phillips' Email:<br>
+              Nancy Phillips' Email:<br><br>
+              vCard:
+            </p>
+            <p class="contactpage-content">
+              <a href="#" rel="moc/walspillihpje//spillihpe" class="eric-email">email</a><br>
+              <a href="#" rel="moc/walspillihpje//spillihpn" class="nancy-email">email</a><br><br>
+              <a href="ejphillips_vcard.vcf">vCard</a>
+            </p>
+          </div>
 
-          <p id="contactpage-labels">
-            Eric Phillips' Email:<br><br>
-            Nancy Phillips' Email:<br><br>
-            vCard:<br><br>
-            Phone:<br>
-            Cell:<br>
-            Fax:<br><br>
-            Address:
-          </p>
+          <div id="right-contact">
+            <p class="titles highlight-color page-smalltitles">Phone Numbers and Address</p>
 
-          <p id="contactpage-content">
-            <a href="#" rel="moc/walspillihpje//spillihpe" class="eric-email">email</a><br><br>
-            <a href="#" rel="moc/walspillihpje//spillihpn" class="nancy-email">email</a><br><br>
-            <a href="ejphillips_vcard.vcf">vCard</a><br><br>
-            925-263-2261<br>
-            925-997-0052<br>
-            925-406-0751<br><br>
-            4115 Blackhawk Plaza Circle, Suite 100<br>
-            Danville, CA 94506<br><br>
-            <a id="map-btn" class="button" href="http://goo.gl/maps/Zy5F2">Map</a>
-          </p>
+            <p class="contactpage-labels">
+              Phone:<br>
+              Cell:<br>
+              Fax:<br><br>
+              Address:
+            </p>
+
+            <p class="contactpage-content">
+              925-263-2261<br>
+              925-997-0052<br>
+              925-406-0751<br><br>
+              4115 Blackhawk Plaza Circle, Suite 100<br>
+              Danville, CA 94506<br><br>
+              <a id="map-btn" class="button" href="http://goo.gl/maps/Zy5F2">Map</a>
+            </p>
+          </div>
 
         </div>
       </div>
@@ -135,9 +100,9 @@
 
   </div>
 
-    <div class="footer">
-      <p class="copyright">Copyright © 2012 The Law Office of Eric J. Phillips</p>
-    </div>
+  <div class="footer">
+    <p class="copyright">Copyright © 2013 The Law Office of Eric J. Phillips</p>
+  </div>
 
-  </body>
+</body>
 </html>

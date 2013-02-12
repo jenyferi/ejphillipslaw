@@ -8,105 +8,40 @@
 	margin-right: 8%;
 	height: 335px;
 	padding-bottom: 15px;
-	background-color: #e7e7e7;
-	border-left: 1px #ebebeb solid;
-	border-top: 1px #ebebeb solid;
-	border-bottom: 1px #ebebeb solid;
+	background-color: #ffffff;
     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(231, 231, 231);
+    background: rgb(255, 255, 255);
     /* RGBa with 0.6 opacity */
-    background: rgba(231, 231, 231, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#ffffff);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fe7e7e7, endColorstr=#7fe7e7e7)";
     background: transparent\9;
 }
 
-#form {
-	float: left;
-	width: 45%;
-}
-
-#sent-message {
-	margin-top: 15px;
-	margin-left: 15px;
-}
-
-#contactform {
-	margin-left: 35%;
-}
-
-#form-labels {
-	float: left;
-	width: 30%;
-	margin-top: 15px;
-	margin-left: 15px;
-	height: 100%;
-}
-
-#form-labels li {
-	font-size: 0.95em;
-	margin-bottom: 30px;
-}
-
-.form-text {
-	vertical-align: top;
-	margin-right: 15px;
-	color: #909090;
-	width: 200px;
-	height: 35px;
-	padding-left: 10px;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
-	font-size: 0.9em;
-    background-color: #ffffff;
-    border: 1px #ebebeb solid;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    behavior: url(../css/border-radius.htc);
-    border-radius: 5px;
-}
-
-label.error {
-	color: #b34252;
-	font-size: 0.7em;
-}
-
-.form-text-wrapper {
-	margin-top: 15px;
-}
-
-#message {
-	height: 125px;
-	resize: none;
-	overflow: auto;
-}
-
-#submit-btn {
-	width: 115px;
-	height: 30px;
-	margin-top: 15px;
-}
-
 #info {
-	float: right;
-	width: 47%;
 	height: 320px;
-	border-top: 0px;
 }
 
-#contactpage-labels {
-	margin-top: 10px;
+#left-contact {
 	float: left;
-	width: 35%;
+	width: 46%;
 }
 
-#contactpage-content {
-	margin-top: 10px;
+#right-contact {
 	float: right;
-	width: 65%;
+	width: 46%;
+}
+
+.contactpage-labels {
+	position: absolute;
+	margin-top: 20px;
+}
+
+.contactpage-content {
+	margin-top: 20px;
+	margin-left: 170px;
 }
 
 #map-btn {
